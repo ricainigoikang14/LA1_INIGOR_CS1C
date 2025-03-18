@@ -1,0 +1,10 @@
+
+let favActorFirstName = "Alden";
+let favActorLastName = "Richard";
+let fullName = favActorFirstName + " " + favActorLastName;
+let uppercase = fullName.toUpperCase();
+let message = `My Favorite Actor is ${uppercase}, `;
+message += `his best show is Hello love goodbye `;
+console.log(message);
+
+ output: My Favorite Actor is Alden Richard, his best show is Hello love goodbye
